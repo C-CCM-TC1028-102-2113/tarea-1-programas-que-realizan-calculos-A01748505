@@ -8,7 +8,8 @@ def main():
     numme=nme*0.8
     numin=nmin*0.8
     cm=numm+numme+numin
-print("El costo mensual es: ",cm)
+    cm=round(cm,2)
+    print("El costo mensual es: ",cm)
     pass
 
 
