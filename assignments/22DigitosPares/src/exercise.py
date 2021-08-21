@@ -2,7 +2,7 @@ def main():
     #escribe tu código abajo de esta línea
     numero=int(input("Dame un número: "))
     dPar=0
-    if numero>1000 and numero<=1000 or numero>=1000 and numero<1000:
+    if numero>10000 and numero<=1000 or numero>=1000 and numero<10000:
         while(numero>0):
             if numero%2==0:
                 dPar=dPar+1
